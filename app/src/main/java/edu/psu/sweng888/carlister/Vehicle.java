@@ -22,6 +22,34 @@ public class Vehicle implements Serializable{
         this.imageResourceId = imageResourceId;
     }
 
+    // setting up getters
+    public String getName() {
+        return name;
+    }
+
+    public String getManufacturer() {
+        return manufacturer;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public int getMileage() {
+        return mileage;
+    }
+
+    public String getCondition() {
+        return condition;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getImageResourceId() {
+        return imageResourceId;
+    }
 
 
 }
