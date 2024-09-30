@@ -51,5 +51,34 @@ public class Vehicle implements Serializable{
         return imageResourceId;
     }
 
+    // Initializing setters for each parameter
+    public void setName(String name) {
+        this.name = name;
+    }
 
+    public void setManufacturer(String manufacturer) {
+        this.manufacturer = manufacturer;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public void setMileage(int mileage) {
+        this.mileage = mileage;
+    }
+
+    public void setCondition(String condition) {
+        this.condition = condition;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setImageResourceId(int imageResourceId) {
+        this.imageResourceId = imageResourceId;
+    }
 }
+
+
