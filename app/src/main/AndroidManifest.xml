@@ -13,10 +13,10 @@
         android:theme="@style/Theme.CarLister"
         tools:targetApi="31">
         <activity
-            android:name=".itemDetail"
+            android:name=".ItemDetail"
             android:exported="false" />
         <activity
-            android:name=".vehicleItem"
+            android:name=".VehicleItem"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

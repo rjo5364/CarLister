@@ -1,8 +1,10 @@
 package edu.psu.sweng888.carlister;
-
 import java.io.Serializable;
 
-public class Vehicle implements Serializable{
+// The vehicle class is a vehicle object with details such as name, manufacturer, year, mileage and implements Serializable to allow Vehicle objects to be passed between activities as Intent extras.
+public class Vehicle implements Serializable {
+    // Defining properties of the vehicle
+
     private String name;
     private String manufacturer;
     private int year;
@@ -11,8 +13,10 @@ public class Vehicle implements Serializable{
     private String color;
     private int imageResourceId;
 
-    // Class Contstructor
+    // Constructor
     public Vehicle(String name, String manufacturer, int year, int mileage, String condition, String color, int imageResourceId) {
+        // Constructor to initialize a Vehicle object with the provided parameters
+
         this.name = name;
         this.manufacturer = manufacturer;
         this.year = year;
@@ -22,7 +26,7 @@ public class Vehicle implements Serializable{
         this.imageResourceId = imageResourceId;
     }
 
-    // setting up getters
+    // Getters
     public String getName() {
         return name;
     }
@@ -50,6 +54,4 @@ public class Vehicle implements Serializable{
     public int getImageResourceId() {
         return imageResourceId;
     }
-
-
 }
